@@ -1,0 +1,160 @@
+header {
+    width: 100%;
+    height: 3.5rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.24rem;
+}
+
+header .logo span {
+    font-weight: 700;
+}
+
+header .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+header .nav-list a {
+    letter-spacing: 0.24rem;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+}
+
+#banner {
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    letter-spacing: 0.24rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+#banner h1 span {
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+
+#projects .project-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4);
+}
+
+#projects .project {
+    position: relative;
+}
+
+#projects .project img {
+    width: 100%;
+}
+
+#projects .project span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+#about .desc {
+    margin-bottom: 1rem;
+}
+
+#about .card-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4) calc(25% - 3rem/4);
+}
+
+#about .card img {
+    width: 100%;
+}
+
+#about .card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+#about .card h4 {
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+#about .card p {
+    margin: 1rem 0;
+}
+
+#about .card .contact-btn {
+    width: 100%;
+}
+
+#contact p {
+    margin: 1rem 0;
+}
+
+#contact input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#contact button {
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#contact button:hover {
+    background-color: #cccccc;
+    color: #000;
+}
+
+#map img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
